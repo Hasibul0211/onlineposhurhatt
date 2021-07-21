@@ -6,3 +6,64 @@
 .card img{
 height: 200px;
 }
+.card p{
+    padding: 0;
+    margin: 0;
+}
+input{
+display: block;
+margin: 5px auto;
+width: 30%;
+padding: 5px;
+
+}
+input:focus{
+    background-color: rgb(204, 212, 188);
+    border: 0;
+    outline: 0;
+}
+textarea{
+    width: 30%;
+    height: 100px;
+    resize: none;
+
+}
+textarea:focus{
+    background-color: rgb(204, 212, 188);
+    border: 0;
+    outline: 0;
+}
+.btn2{
+    display: block;
+    margin: auto;
+    height: 35px;
+    width: 30%;
+    outline: 0;
+    border: 1px solid;
+}
+.btn2:hover{
+    color: cornsilk;
+    background-color: rgba(140, 140, 233, 0.795);
+}
+.btn3{
+outline: 0;
+border: 0;
+margin: 5px auto;
+width: 150px;
+}
+.btn3:focus{
+    box-shadow: none;
+}
+@media only screen and (max-width: 600px) {
+    input {
+      width: 80%
+  }
+  textarea{
+      width: 80%;
+      height: 80px;
+  }
+  .btn2{
+      width: 80%;
+  }
+}
+    
