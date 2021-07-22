@@ -54,7 +54,7 @@ width: 150px;
 .btn3:focus{
     box-shadow: none;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 682px) {
     input {
       width: 80%
   }
@@ -64,6 +64,17 @@ width: 150px;
   }
   .btn2{
       width: 80%;
+  }
+  nav h2{
+      font-size: 20px;
+      padding-left: 0;
+      margin-left: 0;
+  }
+  .navbar{
+      padding-top: 0;
+  }
+  footer{
+      font-size: 10px;
   }
 }
     
